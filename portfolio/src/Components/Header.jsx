@@ -16,9 +16,9 @@ return(
         </div>
 
         <div className="icons">
-            <FontAwesomeIcon icon={faTwitter}/>
-            <FontAwesomeIcon icon={faLinkedinIn}/>
-            <FontAwesomeIcon icon={faGithubAlt} />
+            <FontAwesomeIcon className="icon" icon={faTwitter}/>
+            <FontAwesomeIcon className="icon"  icon={faLinkedinIn}/>
+            <FontAwesomeIcon className="icon"  icon={faGithubAlt} />
             
         </div>
     </div>
