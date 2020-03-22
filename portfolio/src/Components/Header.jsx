@@ -19,6 +19,7 @@ return(
             <FontAwesomeIcon icon={faTwitter}/>
             <FontAwesomeIcon icon={faLinkedinIn}/>
             <FontAwesomeIcon icon={faGithubAlt} />
+            
         </div>
     </div>
 )
