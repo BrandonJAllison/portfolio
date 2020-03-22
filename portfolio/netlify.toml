@@ -5,9 +5,9 @@ ID = "be34633c-57c4-4e8d-9007-178af6a254a5"
 
 [build]
   # This is the directory to change to before starting a build.
-  base    = "/portfolio/portfolio"
+  base    = "/portfolio"
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
   # This is the directory that you are publishing from (relative to root of your repo)
-  publish = "portfolio/portfolio/build/"
+  publish = "portfolio/build/"
   # This will be your default build command
   command = "yarn build"
