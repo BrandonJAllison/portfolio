@@ -46,7 +46,7 @@
 }
 
 :root {
-  --primary-color: rgba(0, 0, 0, 0.65);
+  --primary-color: rgba(0, 0, 0, 0.75);
   --overlay-color: rgba(0, 0, 0 , 0.90);
   --menu-speed: 0.75s;
 }
