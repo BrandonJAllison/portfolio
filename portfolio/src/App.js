@@ -29,8 +29,8 @@ function App() {
 
   <header class="showcase">
     <div class="container showcase-inner">
-      <h1>Hello!</h1>
-      <p>My name is Brandon Allison.  I am a web developer located in Pennsylvania.</p>
+      <h1>Welcome!</h1>
+      <h3>I am Brandon Allison,  a software developer located in Pennsylvania.</h3>
       <div>
       <FontAwesomeIcon className="icon" icon={faHtml5} />
       <FontAwesomeIcon className="icon" icon={faCss3Alt}/>
