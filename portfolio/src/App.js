@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Components/Header.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faJs, faHtml5, faCss3Alt, faDocker, faNode, faReact, faTwitter, faLinkedinIn, faGithubAlt} from '@fortawesome/free-brands-svg-icons'
+import Projects from './Components/Projects/Projects.jsx'
 
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
    
-<div class="menu-wrap">
+{/* <div class="menu-wrap">
     <input type="checkbox" class="toggler"/>
     <div class="hamburger"><div></div></div>
     <div class="menu">
@@ -30,7 +31,7 @@ function App() {
   <header class="showcase">
     <div class="container showcase-inner">
       <div>
-      <FontAwesomeIcon className="social-icon" icon={faTwitter}/>
+      <FontAwesomeIcon className="social-icon twitter" icon={faTwitter}/>
       <FontAwesomeIcon className="social-icon" icon={faLinkedinIn}/>
       <FontAwesomeIcon className="social-icon" icon={faGithubAlt} />
       </div>
@@ -45,8 +46,8 @@ function App() {
       <FontAwesomeIcon className="icon" icon={faDocker} />
       </div>
     </div>
-  </header>
-
+  </header> */}
+    <Projects/>
     </div>
   );
 }
